@@ -1,0 +1,14 @@
+.button{
+    background: rgb(61, 58, 58);
+    margin-right: 30px;
+    float: left;
+    padding: 0px 5px;
+    border: solid 1px white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: red;
+}

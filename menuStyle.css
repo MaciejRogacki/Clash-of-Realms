@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+}
+
+.menu{
+    width: 1024;
+    height: 576;
+    background-color: blue;
+    position: absolute;
+}
+
+.characterMenu{
+    width: 512;
+    height: 576;
+    background-color: rgb(61, 58, 58);
+    float: left;
+    outline: 2px solid white;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Creepster', cursive;
+    font-size: 60;
+}
+
+.characters{
+    width: 512;
+    height: 46;
+    overflow: hidden;
+}
+
+#character1{
+    float: left;
+    width: 251;
+    font-family: 'Creepster', cursive;
+    padding-left: 10;
+    font-size: 20;
+    color: white;
+}
+
+#character2{
+    float: left;
+    width: 251;
+    font-family: 'Creepster', cursive;
+    font-size: 20;
+    color: white;
+}
+
+.characterGrid{
+    width: 512;
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(2,100px);
+    grid-gap: 20px 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+
+}
+
+.charaterImage{
+    width:  150px;
+    height: 100px;
+    background-size:contain;
+    overflow: hidden;
+    outline: 1px solid white;
+}
+
+.characterChosenP1{
+    outline: 3px solid blue;
+}
+
+.characterChosenP2{
+    outline: 3px solid red;
+}
+
+#characterImage0{
+    background-image: url(./assets/Menu/Charlote.png);
+}
+
+#characterImage1{
+    background-image: url(./assets/Menu/Find.png);
+}
+
+#characterImage2{
+    background-image: url(./assets/Menu/LostHero.png);
+}
+
+#characterImage3{
+    background-image: url(./assets/Menu/Zartax.png);
+}
+
+#characterImage4{
+    background-image: url(./assets/Menu/Darius.png);
+}
+
+#characterImage5{
+    background-image: url(./assets/Menu/McFit.png);
+}
+
+.button{
+    background-color:#e7e7e7;
+    color: black;
+    border: none;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 192.6015;
+    font-family: 'Creepster', cursive;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.controllsMenu{
+    width: 512;
+    height: 576;
+    background-image: url(./assets/Menu/Controls.png);
+    background-color: black;
+    overflow: hidden;
+    outline: 2px solid white;
+}
